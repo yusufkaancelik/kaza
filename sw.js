@@ -1,14 +1,14 @@
 // Network-first so updates show up when online; cached copy keeps the app working offline.
-const CACHE = 'kaza-v1';
+const CACHE = 'kaza-v2';
 const FILES = [
   './',
   './index.html',
   './style.css',
   './app.js',
   './manifest.json',
-  './icons/icon-192.png',
-  './icons/icon-512.png',
-  './icons/apple-touch-icon.png',
+  './icon-192.png',
+  './icon-512.png',
+  './apple-touch-icon.png',
 ];
 
 self.addEventListener('install', (e) => {
